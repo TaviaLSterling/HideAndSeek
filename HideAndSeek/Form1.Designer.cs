@@ -36,9 +36,10 @@
             // 
             // description
             // 
-            this.description.Location = new System.Drawing.Point(25, 51);
+            this.description.Location = new System.Drawing.Point(25, 21);
+            this.description.Multiline = true;
             this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(218, 22);
+            this.description.Size = new System.Drawing.Size(218, 99);
             this.description.TabIndex = 0;
             // 
             // goHere
@@ -77,6 +78,8 @@
             this.Controls.Add(this.goThroughTheDoor);
             this.Controls.Add(this.goHere);
             this.Controls.Add(this.description);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
