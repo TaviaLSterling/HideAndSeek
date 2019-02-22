@@ -46,7 +46,7 @@
             // 
             // goHere
             // 
-            this.goHere.Location = new System.Drawing.Point(74, 245);
+            this.goHere.Location = new System.Drawing.Point(65, 244);
             this.goHere.Name = "goHere";
             this.goHere.Size = new System.Drawing.Size(75, 23);
             this.goHere.TabIndex = 1;
@@ -68,9 +68,9 @@
             // 
             this.exits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.exits.FormattingEnabled = true;
-            this.exits.Location = new System.Drawing.Point(225, 244);
+            this.exits.Location = new System.Drawing.Point(161, 243);
             this.exits.Name = "exits";
-            this.exits.Size = new System.Drawing.Size(121, 24);
+            this.exits.Size = new System.Drawing.Size(215, 24);
             this.exits.TabIndex = 3;
             // 
             // check
