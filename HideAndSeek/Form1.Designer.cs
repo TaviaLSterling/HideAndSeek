@@ -41,59 +41,63 @@
             this.description.Location = new System.Drawing.Point(25, 21);
             this.description.Multiline = true;
             this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(218, 99);
+            this.description.Size = new System.Drawing.Size(365, 217);
             this.description.TabIndex = 0;
             // 
             // goHere
             // 
-            this.goHere.Location = new System.Drawing.Point(25, 126);
+            this.goHere.Location = new System.Drawing.Point(74, 245);
             this.goHere.Name = "goHere";
             this.goHere.Size = new System.Drawing.Size(75, 23);
             this.goHere.TabIndex = 1;
             this.goHere.Text = "Go Here:";
             this.goHere.UseVisualStyleBackColor = true;
+            this.goHere.Click += new System.EventHandler(this.goHere_Click);
             // 
             // goThroughTheDoor
             // 
-            this.goThroughTheDoor.Location = new System.Drawing.Point(43, 156);
+            this.goThroughTheDoor.Location = new System.Drawing.Point(74, 289);
             this.goThroughTheDoor.Name = "goThroughTheDoor";
-            this.goThroughTheDoor.Size = new System.Drawing.Size(171, 23);
+            this.goThroughTheDoor.Size = new System.Drawing.Size(272, 23);
             this.goThroughTheDoor.TabIndex = 2;
             this.goThroughTheDoor.Text = "Go Through the Door";
             this.goThroughTheDoor.UseVisualStyleBackColor = true;
+            this.goThroughTheDoor.Click += new System.EventHandler(this.goThroughTheDoor_Click);
             // 
             // exits
             // 
             this.exits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.exits.FormattingEnabled = true;
-            this.exits.Location = new System.Drawing.Point(122, 126);
+            this.exits.Location = new System.Drawing.Point(225, 244);
             this.exits.Name = "exits";
             this.exits.Size = new System.Drawing.Size(121, 24);
             this.exits.TabIndex = 3;
             // 
             // check
             // 
-            this.check.Location = new System.Drawing.Point(101, 186);
+            this.check.Location = new System.Drawing.Point(74, 338);
             this.check.Name = "check";
-            this.check.Size = new System.Drawing.Size(75, 23);
+            this.check.Size = new System.Drawing.Size(272, 23);
             this.check.TabIndex = 4;
             this.check.Text = "button3";
             this.check.UseVisualStyleBackColor = true;
+            this.check.Click += new System.EventHandler(this.check_Click);
             // 
             // hide
             // 
-            this.hide.Location = new System.Drawing.Point(43, 218);
+            this.hide.Location = new System.Drawing.Point(74, 384);
             this.hide.Name = "hide";
-            this.hide.Size = new System.Drawing.Size(171, 23);
+            this.hide.Size = new System.Drawing.Size(272, 23);
             this.hide.TabIndex = 5;
             this.hide.Text = "Hide!";
             this.hide.UseVisualStyleBackColor = true;
+            this.hide.Click += new System.EventHandler(this.hide_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.ClientSize = new System.Drawing.Size(426, 436);
             this.Controls.Add(this.hide);
             this.Controls.Add(this.check);
             this.Controls.Add(this.exits);
